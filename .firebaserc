@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pruebaplatweb": {
+      "hosting": {
+        "PruebaAngular": [
+          "pruebaplatweb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pruebaplatweb"
+  }
+}

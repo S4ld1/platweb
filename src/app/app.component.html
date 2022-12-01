@@ -1,0 +1,15 @@
+
+<h1>{{title}}</h1>
+<table>
+  <tr>
+      <th>Codigo</th>
+      <th>Metros</th>
+      <th>Direc</th>
+      <th>Tipo</th>
+  </tr>
+  <tr *ngFor="let f of Fire | async">
+      <th>{{f.codigo}}</th>
+      <th>{{f.metros}}</th>
+      <th>{{f.direc}}</th>
+      <th>{{f.tipo}}</th>
+<router-outlet></router-outlet>
